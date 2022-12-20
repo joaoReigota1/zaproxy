@@ -48,3 +48,4 @@ dependencies {
     implementation("gradle.plugin.install4j.install4j.buildtools:gradle_publish:10.0.3")
     implementation("me.champeau.gradle:japicmp-gradle-plugin:0.4.1")
 }
+
