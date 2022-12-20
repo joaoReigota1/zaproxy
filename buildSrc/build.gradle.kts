@@ -35,16 +35,16 @@ dependencies {
     implementation("commons-codec:commons-codec:1.12")
     implementation("commons-configuration:commons-configuration:1.10")
     implementation("commons-collections:commons-collections:3.2.2")
-    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4")
+    implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.1")
     val jgitVersion = "5.3.1.201904271842-r"
     implementation("org.eclipse.jgit:org.eclipse.jgit:$jgitVersion")
     implementation("org.eclipse.jgit:org.eclipse.jgit.archive:$jgitVersion")
     implementation("org.kohsuke:github-api:1.95")
     // Gradle Plugins
     implementation("com.diffplug.spotless:spotless-plugin-gradle:6.11.0")
-    implementation("com.netflix.nebula:gradle-ospackage-plugin:8.5.6")
+    implementation("com.netflix.nebula:gradle-ospackage-plugin:10.0.0")
     implementation("de.undercouch:gradle-download-task:4.1.1")
-    implementation("edu.sc.seis.launch4j:launch4j:2.5.0")
+    implementation("edu.sc.seis.launch4j:launch4j:2.5.4")
     implementation("gradle.plugin.install4j.install4j.buildtools:gradle_publish:10.0.3")
     implementation("me.champeau.gradle:japicmp-gradle-plugin:0.4.1")
 }
